@@ -1,0 +1,66 @@
+Q 1 Java program to print welcome message.
+
+
+public static void main(String[] args) {
+System.out.println("welcome");
+
+	}
+
+}
+
+
+Q 2 Java program to print sum of  three float numbers.
+
+public static void main(String[] args) {
+     float a,b,c;
+     Scanner s =new Scanner(System.in);
+     System.out.println("sum of three float num");
+     
+     System.out.print("enter ist num");
+     a = s.nextFloat();
+     
+     System.out.print("enter 2nd num");
+     b = s.nextFloat();
+     
+     System.out.print("enter 3rd num");
+	 c = s.nextFloat();
+	 System.out.println("sum of num is " +(a+b+c));
+		 
+	}
+
+}
+
+
+Q 3 Java Program to Swap Two Numbers.
+
+
+       public static void main(String[] args) {
+       int x=10 ;
+       int y= 20;
+       System.out.println(" value before swapping"+ x + y);
+       int temp= x;
+       x=y; 
+       y=temp;
+       System.out.println(" value after swapping"+ x + y);
+       
+       } 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
